@@ -1,0 +1,1 @@
+This is a straightforward conversion of the Mersenne Twister pseudocode published on the [Wikipedia page](http://en.wikipedia.org/wiki/Mersenne_twister) into C. The code is compatible with the C89 ANSI standard.
