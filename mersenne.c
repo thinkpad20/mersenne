@@ -29,8 +29,8 @@ void ms_init(int seed) {
     is_initialized = 1;
 }
  
-/* Extract a tempered pseudorandom number based on the index-th value,
-   calling generate_numbers() every 624 numbers */
+/* Extract a tempered pseudorandom number based on the idx-th value,
+   calling ms_generate() every 624 numbers */
 int ms_rand() {
     #ifdef __DO_AUTOSEED__
     if (!is_initialized)
