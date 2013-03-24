@@ -66,7 +66,6 @@ void ms_generate() {
 #ifdef __DO_MAIN__
 
 int main(void) {
-    // ms_init(23);
     int array[20], i;
     for (i = 0; i < 20; ++i)
         array[i] = 0;
