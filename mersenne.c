@@ -1,4 +1,7 @@
 #include <stdio.h>
+/* uncomment this to skip the main test function
+#define __NOMAIN__
+*/
 
 void ms_init(int);
 int ms_rand(void);
